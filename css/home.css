@@ -1,0 +1,257 @@
+body {
+    height: 100vh;
+    padding: 0;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.image-division {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro-image {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.nav-bar li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #00ffff;
+}
+
+.nav-bar-division {
+    position: fixed;
+    width: 100%;
+    line-height: 50px;
+    padding: 15px 0;
+    top: 0px;
+    margin: 0;
+}
+
+.nav-bar {
+    display: inline;
+    float: right;
+    margin: 0;
+}
+
+.greeting {
+    color: white;
+    font-style: italic;
+    display: inline;
+    word-spacing: 1.2px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    font-family: 'Philosopher';
+}
+
+.greeting:hover {
+    color: #00ffff;
+}
+
+.my-name-division {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 40%;
+}
+
+.my-name-division h1 {
+    color: #00ffff;
+    font-size: 70px;
+    word-spacing: 15px;
+    letter-spacing: 3px;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote-division {
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    top: 55%;
+}
+
+.quote-division p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-me-division {
+    padding-top: 40px;
+    padding-bottom: 200px;
+    background-color: rgb(189, 223, 221);
+    text-align: center;
+}
+
+.about-me-written-division {
+    width: 100%;
+    font-family: Aclonica;
+    font-size: 20px;
+    padding-top: 50px;
+    word-spacing: 10px;
+}
+
+.about-me-written {
+    margin: 0;
+}
+
+.brief-me-written-division p {
+    font-family: 'Rock Salt';
+    padding: 0;
+}
+
+.detailed-me-written-division {
+    margin-top: 100px;
+}
+
+.detailed-me-written-division p {
+    font-family: 'Risque', cursive;
+    line-height: 25px;
+    word-spacing: 5px;
+    font-size: 18px;
+}
+
+.projects-division {
+    background-color: skyblue;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.projects-written-division {
+    font-family: 'Aclonica';
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.project {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    color: white;
+    margin: 75px 50px 0 50px;
+    padding: 0;
+}
+
+.project-image {
+    width: 300px;
+    height: 300px;
+}
+
+.contact-division {
+    background-color: rgb(0, 255, 191);
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.contact-division div {
+    text-align: center;
+}
+
+.contact-written-division {
+    word-spacing: 10px;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.contact-written-division h1 {
+    font-family: 'Aclonica';
+}
+
+#line {
+    text-transform: capitalize;
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.email-class {
+    display: inline;
+}
+
+#email {
+    text-decoration-line: underline;
+}
+
+.linkedin-class {
+    display: inline;
+}
+
+#linkedin {
+    text-decoration-line: underline;
+}
+
+.facebook-class {
+    display: inline;
+}
+
+#facebook {
+    text-decoration-line: underline;
+}
+
+#copyright {
+    font-size: 20px;
+    font-family: 'Risque', cursive;
+}
+
+@media screen and (max-width: 650px) {
+    .my-name-division h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .my-name-division h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 743px) {
+    .greeting {
+        font-size: 25px;
+    }
+    .nav-bar li {
+        display: block;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .greeting {
+        font-size: 20px;
+    }
+    .nav-bar li {
+        display: block;
+        font-size: 14px;
+    }
+}
